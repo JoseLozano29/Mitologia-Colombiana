@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle del Dios · Panteón Colombiano</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo-area">
+          <i class="fas fa-sun logo-icon"></i>
+          <div class="site-title">
+            <h1>Panteón de Dioses Colombianos</h1>
+            <p>Espíritus, creadores y dueños de la naturaleza</p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="index.html">Panteón</a></li>
+            <li><a href="../criaturas/index.html">Criaturas</a></li>
+            <li><a href="../lugares/index.html">Lugares</a></li>
+          </ul>
+        </nav>
+      </div>
+        </header>
+
+    <main class="container">
+      <div id="detalle-dios" class="detalle-container">
+        <!-- Aquí se inyectará el contenido dinámicamente -->
+      </div>
+    </main>
+    <script src="../js/footer-component.js" defer></script>
+
+    <footer-mitologia></footer-mitologia>
+       <script src="../js/dioses.js"></script>
+    <script>
+      // Obtener el parámetro 'nombre' de la URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const nombreDios = urlParams.get("nombre");
+
+      const contenedor = document.getElementById("detalle-dios");
+
+      if (nombreDios && dioses[nombreDios]) {
+        const dios = dioses[nombreDios];
+        let html = `
+                <img src="${dios.imagen}" alt="${dios.nombre}" class="detalle-imagen">
+                <h2 class="detalle-titulo">${dios.nombre}</h2>
+                <span class="detalle-cultura">${dios.cultura}</span>
+                <div class="detalle-descripcion">${dios.descripcion}</div>
+                <div class="atributos-detalle">
+            `;
+        for (let i = 0; i < dios.atributos.length; i++) {
+          html += `<span><i class="fas ${dios.iconos[i] || "fa-star"}"></i> ${dios.atributos[i]}</span>`;
+        }
+        html += `</div>`;
+        html += `<a href="index.html" class="boton-volver"><i class="fas fa-arrow-left"></i> Volver al panteón</a>`;
+
+        contenedor.innerHTML = html;
+      } else {
+        contenedor.innerHTML = `
+                <h2 class="detalle-titulo">Dios no encontrado</h2>
+                <p>Lo sentimos, no tenemos información sobre esta deidad.</p>
+                <a href="index.html" class="boton-volver"><i class="fas fa-arrow-left"></i> Volver al panteón</a>
+            `;
+      }
+    </script>
+  </body>
+</html>

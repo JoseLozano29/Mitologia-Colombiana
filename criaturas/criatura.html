@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle de Criatura · Bestiario Colombiano</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo-area">
+          <i class="fas fa-dragon logo-icon"></i>
+          <div class="site-title">
+            <h1>Bestiario Colombiano</h1>
+            <p>Criaturas, espectros y entes fantásticos de la tradición oral</p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="index.html">Criaturas</a></li>
+            <li><a href="../panteon/index.html">Panteón</a></li>
+            <li><a href="../lugares/index.html">Lugares</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div id="detalle-criatura" class="detalle-container">
+        <!-- Aquí se inyectará el contenido dinámicamente -->
+      </div>
+    </main>
+
+    <script src="../js/footer-component.js" defer></script>
+
+    <footer-mitologia></footer-mitologia>
+
+    <!-- Cargar la base de datos de criaturas -->
+    <script src="../js/criaturas.js"></script>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const nombreCriatura = urlParams.get("nombre");
+      const contenedor = document.getElementById("detalle-criatura");
+
+      if (nombreCriatura) {
+        const criatura = obtenerCriaturaPorId(nombreCriatura);
+        if (criatura) {
+          // Usar la imagen real o un placeholder si no existe
+          const imagenSrc =
+            criatura.imagen || "../img/criaturas/placeholder.png";
+
+          let html = `
+            <img src="${imagenSrc}" alt="${criatura.nombre}" class="detalle-imagen">
+            <h2 class="detalle-titulo">${criatura.nombre}</h2>
+            <span class="detalle-cultura">${criatura.cultura}</span>
+            <div class="detalle-descripcion">
+              ${criatura.descripcion}
+            </div>
+            <div class="atributos-detalle">
+          `;
+
+          // Mostrar todos los atributos con sus iconos
+          for (let i = 0; i < criatura.atributos.length; i++) {
+            const icono = criatura.iconos[i] || "fa-star";
+            html += `<span><i class="fas ${icono}"></i> ${criatura.atributos[i]}</span>`;
+          }
+          html += `</div>`;
+          html += `<a href="index.html" class="boton-volver"><i class="fas fa-arrow-left"></i> Volver al bestiario</a>`;
+
+          contenedor.innerHTML = html;
+        } else {
+          contenedor.innerHTML = `
+            <h2 class="detalle-titulo">Criatura no encontrada</h2>
+            <p>Lo sentimos, no tenemos información sobre esta criatura.</p>
+            <a href="index.html" class="boton-volver">Volver al bestiario</a>
+          `;
+        }
+      } else {
+        contenedor.innerHTML = `
+          <h2 class="detalle-titulo">Criatura no especificada</h2>
+          <p>Por favor, accede a esta página desde el bestiario.</p>
+          <a href="index.html" class="boton-volver">Volver al bestiario</a>
+        `;
+      }
+    </script>
+  </body>
+</html>

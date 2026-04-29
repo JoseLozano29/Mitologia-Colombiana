@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lugar Sagrado · Mitología Colombiana</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo-area">
+          <i class="fas fa-tree logo-icon"></i>
+          <div class="site-title">
+            <h1>Lugares Sagrados de Colombia</h1>
+            <p>
+              Montañas, lagunas y ríos donde lo divino se encuentra con lo
+              terrenal
+            </p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="index.html">Lugares</a></li>
+            <li><a href="../panteon/index.html">Panteón</a></li>
+            <li><a href="../criaturas/index.html">Criaturas</a></li>
+          </ul>
+        </nav>
+      </div>
+         </header>
+
+    <main class="container">
+      <div id="detalle-lugar" class="detalle-container">
+        <!-- Aquí se inyectará el contenido dinámicamente -->
+      </div>
+    </main>
+
+    <script src="../js/footer-component.js" defer></script>
+
+    <footer-mitologia></footer-mitologia>
+
+    <script src="../js/lugares.js"></script>
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const nombreLugar = urlParams.get("nombre");
+      const contenedor = document.getElementById("detalle-lugar");
+
+      if (nombreLugar) {
+        const lugar = obtenerLugarPorId(nombreLugar);
+        if (lugar) {
+          let html = `
+                    <img src="${lugar.imagen || "../img/lugares/placeholder.png"}" alt="${lugar.nombre}" class="detalle-imagen">
+                    <h2 class="detalle-titulo">${lugar.nombre}</h2>
+                    <span class="detalle-cultura">${lugar.cultura}</span>
+                    <div class="detalle-descripcion">${lugar.descripcion}</div>
+                    <div class="atributos-detalle">
+                `;
+          for (let i = 0; i < lugar.atributos.length; i++) {
+            const icono = lugar.iconos[i] || "fa-star";
+            html += `<span><i class="fas ${icono}"></i> ${lugar.atributos[i]}</span>`;
+          }
+          html += `</div>`;
+          html += `<a href="index.html" class="boton-volver"><i class="fas fa-arrow-left"></i> Volver a lugares sagrados</a>`;
+          contenedor.innerHTML = html;
+        } else {
+          contenedor.innerHTML = `
+                    <h2 class="detalle-titulo">Lugar no encontrado</h2>
+                    <p>Lo sentimos, no tenemos información sobre este lugar sagrado.</p>
+                    <a href="index.html" class="boton-volver">Volver a lugares sagrados</a>
+                `;
+        }
+      } else {
+        contenedor.innerHTML = `
+                <h2 class="detalle-titulo">Lugar no especificado</h2>
+                <p>Por favor, accede a esta página desde el listado de lugares sagrados.</p>
+                <a href="index.html" class="boton-volver">Volver a lugares sagrados</a>
+            `;
+      }
+    </script>
+  </body>
+</html>
