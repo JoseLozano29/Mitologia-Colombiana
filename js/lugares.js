@@ -8,7 +8,7 @@ const lugaresDB = [
         nombre: "Sierra Nevada de Santa Marta (Gonawindúa)",
         cultura: "Kogui, Arhuaco, Wiwa, Kankuamo",
         region: "caribe",
-        imagen: "../img/lugares/Sierra-Nevada.webp",
+        imagen: "../img/Lugares/Sierra-Nevada.webp",
         descripcion_corta: "El 'Corazón del Mundo', centro espiritual y físico de la creación para los pueblos de la Sierra. Alberga la 'Línea Negra' de sitios sagrados.",
         descripcion: `<h3>🏔️ Un Macizo Único en el Mundo</h3>
         <p>La Sierra Nevada de Santa Marta no es una montaña cualquiera. Se trata de un sistema montañoso independiente, aislado de la cordillera de los Andes, que se eleva abruptamente desde las cálidas playas del mar Caribe hasta alcanzar picos nevados a más de 5.775 metros de altura, como el Pico Cristóbal Colón y el Simón Bolívar, los más altos de Colombia. Su área total es de aproximadamente 17.000 km² y se extiende por los departamentos del Magdalena, Cesar y La Guajira. Para la ciencia, es el macizo litoral más alto del mundo y un resumen climático único. Para los pueblos indígenas que la habitan, es el <strong>Gonawindúa</strong>, el "Corazón del Mundo".</p>
@@ -29,7 +29,7 @@ const lugaresDB = [
         nombre: "Ciudad Perdida (Teyuna)",
         cultura: "Kogui (Tayrona)",
         region: "caribe",
-        imagen: "../img/lugares/Ciudad-Perdida.webp",
+        imagen: "../img/Lugares/Ciudad-Perdida.webp",
         descripcion_corta: "Antigua ciudad ceremonial y política de los Tayrona, considerada un centro de poder espiritual y conexión con los ancestros.",
         descripcion: `<h3>🏛️ El Redescubrimiento de un Tesoro Ancestral</h3>
         <p>En las profundidades de la selva de la Sierra Nevada de Santa Marta, a más de 1.200 metros de altura, se encuentra un secreto que permaneció oculto durante siglos: la <strong>Ciudad Perdida</strong>. Conocida por sus constructores, la civilización Tayrona, como <strong>Teyuna</strong>, esta ciudad fue fundada alrededor del año 700 d.C. y floreció hasta la llegada de los conquistadores españoles. Fue redescubierta oficialmente en 1972, cuando un grupo de buscadores de tesoros encontró sus escalinatas y terrazas cubiertas por la densa vegetación. Para entonces, los pueblos indígenas de la Sierra (Kogui, Arhuaco, Wiwa y Kankuamo), descendientes directos de los Tayrona, ya la conocían como un sitio sagrado al que llamaban Teyuna, el corazón de una red de aldeas que fue el centro político, económico, religioso y espiritual más importante de la región.</p>
@@ -47,7 +47,7 @@ const lugaresDB = [
         nombre: "Laguna Sagrada (Wotkasairu)",
         cultura: "Wayuu (Maleiwa)",
         region: "caribe",
-        imagen: "../img/lugares/Laguna-Wotkasairu.webp",
+        imagen: "../img/Lugares/Laguna-Wotkasairu.webp",
         descripcion_corta: "Lugar de origen del pueblo Wayuu, donde el dios Maleiwa modeló a los primeros wayuu con arcilla roja.",
         descripcion: `<h3>🌅 En el Corazón de la Alta Guajira</h3>
         <p>En la vasta y árida península de la Alta Guajira, donde el desierto se encuentra con el mar Caribe, se encuentra un lugar de una profunda significación para el pueblo Wayuu: la laguna sagrada de <strong>Wotkasairu</strong>. Este espejo de agua, de apariencia modesta, es para los wayuu el escenario del origen de la humanidad. La tradición oral wayuu narra que, en los tiempos del principio, cuando la Tierra (Mma) se encontraba triste y solitaria, el dios creador <strong>Maleiwa</strong> descendió a este punto exacto. Fue allí donde tomó arcilla roja, el "pootchi" de la tierra, y con sus manos moldeó las primeras figuras humanas. A estas figuras, Maleiwa les insufló la vida y la palabra, y les ordenó: "Ustedes serán los Wayuu (los hombres), hablarán y caminarán por todas partes, esta tierra será suya".</p>
@@ -65,7 +65,7 @@ const lugaresDB = [
         nombre: "Río Magdalena (tramo Plato)",
         cultura: "Hombre Caimán",
         region: "caribe",
-        imagen: "../img/lugares/Río-Magdalena-Caimán.webp",
+        imagen: "../img/Lugares/Río-Magdalena-Caimán.webp",
         descripcion_corta: "Escenario de la trágica transformación del pescador Saúl Montenegro, condenado a vagar como mitad hombre, mitad caimán.",
         descripcion: `<h3>🐊 El Pecado Original en las Orillas del Magdalena</h3>
         <p>En las cálidas y caudalosas aguas del río Magdalena, a la altura del municipio de Plato (Magdalena), ocurrió una de las transformaciones más famosas del folclor colombiano. Este tramo del río es el escenario eterno de la leyenda del <strong>Hombre Caimán</strong>. La historia narra la vida de Saúl Montenegro, un pescador cuya obsesión era espiar a las mujeres que se bañaban desnudas en las playas del río. Cansado de esconderse entre los arbustos con el riesgo de ser descubierto, tomó una decisión desesperada: viajó hasta la Alta Guajira y convenció a un poderoso brujo para que le preparara dos pócimas mágicas: una roja para convertirse en caimán y una blanca para recuperar su forma humana.</p>
@@ -83,7 +83,7 @@ const lugaresDB = [
         nombre: "Ciénaga Grande de Santa Marta",
         cultura: "Caribe",
         region: "caribe",
-        imagen: "../img/lugares/Cienaga-Grande.webp",
+        imagen: "../img/Lugares/Cienaga-Grande.webp",
         descripcion_corta: "Lugar de aparición del espectro de La Llorona, cuyo lamento anuncia muerte y castiga a infieles y desobedientes.",
         descripcion: `<h3>🌾 El Ecosistema Sagrado y Mítico del Caribe</h3>
         <p>La Ciénaga Grande de Santa Marta es el sistema lagunar costero más grande de Colombia y uno de los humedales más productivos del mundo. Este vasto espejo de agua de aproximadamente 4.280 km², ubicado entre el río Magdalena y la Sierra Nevada de Santa Marta, es un territorio de manglares, ciénagas y caños que ha sido, desde tiempos ancestrales, un espacio de gran significación espiritual para las comunidades ribereñas. No es solo un ecosistema vital; es un escenario vivo donde lo cotidiano y lo sobrenatural se entrelazan.</p>
@@ -104,7 +104,7 @@ const lugaresDB = [
         nombre: "Río Sinú",
         cultura: "Caribe",
         region: "caribe",
-        imagen: "../img/lugares/Río-Sinú.webp",
+        imagen: "../img/Lugares/Río-Sinú.webp",
         descripcion_corta: "Morada del Mohán, guardián de los ríos y tesoros. Seduce a lavanderas y castiga a pescadores abusivos.",
         descripcion: `<h3>🌊 El Río de los Misterios</h3>
         <p>El río Sinú es una de las arterias fluviales más importantes de la región Caribe colombiana. Nace en el Nudo de Paramillo (Antioquia) y recorre los departamentos de Córdoba y Sucre hasta desembocar en el golfo de Morrosquillo. Este río, junto con sus ciénagas y caños, ha sido desde tiempos precolombinos la columna vertebral de la región, sustentando la pesca, la agricultura y el transporte. Pero también es el territorio espiritual del Mohán, uno de los seres más legendarios y respetados del folclor caribeño.</p>
@@ -125,7 +125,7 @@ const lugaresDB = [
         nombre: "Cerro de Juanché",
         cultura: "La Mojana",
         region: "caribe",
-        imagen: "../img/lugares/Cerro-Juanché.webp",
+        imagen: "../img/Lugares/Cerro-Juanché.webp",
         descripcion_corta: "Lugar asociado a La Mojana, mujer diminuta de cabellos dorados que rapta a los niños que se acercan a las ciénagas.",
         descripcion: `<h3>🏞️ El Cerro Mítico en el Corazón de la Depresión Mompoxina</h3>
         <p>El Cerro de Juanché es una elevación ubicada cerca del municipio de Magangué, en el departamento de Bolívar, en el corazón de la Depresión Mompoxina. Esta región de ciénagas, caños y humedales es conocida como "La Mojana", un nombre que alude tanto a la geografía anegadiza como a la legendaria criatura que la habita. El cerro, de origen rocoso, se alza como un punto de referencia en medio de la llanura aluvial y es, según la tradición oral, un lugar predilecto de apariciones de La Mojana.</p>
@@ -146,7 +146,7 @@ const lugaresDB = [
         nombre: "Mansión Manuelita (Ciénaga)",
         cultura: "La Casa del Diablo",
         region: "caribe",
-        imagen: "../img/lugares/Mansión-Manuelita.webp",
+        imagen: "../img/Lugares/Mansión-Manuelita.webp",
         descripcion_corta: "Mansión donde el hacendado Manuel Varela hacía pactos con el demonio. Aparece un perro o enano negro.",
         descripcion: `<h3>🏛️ La Mansión que Desafió al Tiempo</h3>
         <p>En el centro histórico de Ciénaga, Magdalena, se alza una imponente mansión de estilo republicano que ha sido testigo de más de un siglo de historia. Construida en 1916 por el próspero empresario bananero Manuel Varela Machado, esta casa esquinera de dos plantas, con fachada blanca de marmolina, 14 columnas romanas y un frontón con formas de cítara, fue concebida como un símbolo de poder y riqueza durante la bonanza del "oro verde" (el banano). Sin embargo, su nombre original, "Mansión Manuelita", fue pronto reemplazado por el apelativo que la haría famosa en todo el Caribe: la "Casa del Diablo".</p>
@@ -167,7 +167,7 @@ const lugaresDB = [
         nombre: "Alta Guajira (cardonales)",
         cultura: "Wayuu",
         region: "caribe",
-        imagen: "../img/lugares/Alta-Guajira.webp",
+        imagen: "../img/Lugares/Alta-Guajira.webp",
         descripcion_corta: "Lugares desolados, salinas y cardonales donde aparece Keralia, un fuego fatuo que seduce y mata.",
         descripcion: `<h3>🏜️ El Desierto y el Mar: Territorio de Espíritus</h3>
         <p>La Alta Guajira, en los municipios de Uribia y Manaure, es un paisaje de contrastes extremos: un desierto árido de cardones y cactos que se encuentra con el azul profundo del mar Caribe. Es una tierra de salinas, vientos fuertes y cielos despejados, donde el sol (Ka'i) es una presencia avasalladora. Para el pueblo Wayuu, este territorio no es solo un hábitat; es un espacio sagrado poblado por espíritus, ancestros y fuerzas de la naturaleza. Entre los cardonales, las playas solitarias y las salinas, acecha una de las entidades más temidas: Keralia.</p>
@@ -190,7 +190,7 @@ const lugaresDB = [
         nombre: "Laguna de Iguaque",
         cultura: "Muisca",
         region: "andina",
-        imagen: "../img/lugares/Laguna-Iguaque.webp",
+        imagen: "../img/Lugares/Laguna-Iguaque.webp",
         descripcion_corta: "Lugar de origen de la humanidad muisca. Emergió Bachué con un niño en brazos.",
         descripcion: `<h3>🏞️ Un Espejo de Agua en el Páramo</h3>
         <p>La laguna de Iguaque se encuentra en el departamento de Boyacá, a 3.800 metros sobre el nivel del mar, en jurisdicción del municipio de Chíquiza, cerca de Villa de Leyva. Es un pequeño cuerpo de agua de origen glaciar, de aproximadamente 6,75 km² de superficie y 105 metros de profundidad, rodeado por el majestuoso paisaje del páramo, con frailejones, bosques de niebla y una biodiversidad única. Esta laguna es el corazón del Santuario de Fauna y Flora Iguaque, un área protegida de 6.923 hectáreas que alberga ecosistemas de bosque andino, subpáramo y páramo, y que provee agua a varios municipios de la región.</p>
@@ -214,7 +214,7 @@ const lugaresDB = [
         nombre: "Laguna de Guatavita",
         cultura: "Muisca",
         region: "andina",
-        imagen: "../img/lugares/Laguna-Guatavita.webp",
+        imagen: "../img/Lugares/Laguna-Guatavita.webp",
         descripcion_corta: "Escenario del ritual de El Dorado; ofrendas de oro al dios solar.",
         descripcion: `<h3>🏞️ El Cráter Sagrado en la Cordillera</h3>
         <p>La laguna de Guatavita se encuentra en el municipio de Sesquilé, en el departamento de Cundinamarca, a 75 km al noreste de Bogotá. Se ubica a 3.100 metros de altitud, en una depresión montañosa de forma perfectamente circular de unos 350 a 430 metros de diámetro, rodeada de bosques nativos de encenillos y frailejones. Su origen geológico está asociado a procesos de disolución de estratos salinos, lo que le confiere una forma de cráter. Su agua es de un color verdoso y es ligeramente alcalina. Hoy es una reserva protegida, que busca equilibrar el turismo ecológico con la conservación de este lugar de inmenso valor histórico y espiritual.</p>
@@ -238,7 +238,7 @@ const lugaresDB = [
         nombre: "Templo del Sol de Sogamoso (Sugamuxi)",
         cultura: "Muisca (Sué)",
         region: "andina",
-        imagen: "../img/lugares/Templo-del-Sol-de-Sogamoso.webp",
+        imagen: "../img/Lugares/Templo-del-Sol-de-Sogamoso.webp",
         descripcion_corta: "Santuario solar más importante de la Confederación Muisca.",
         descripcion: `<h3>🏛️ La Ciudad del Sol y el Centro del Universo Muisca</h3>
         <p>Sogamoso, conocida en la época precolombina como <strong>Sugamuxi</strong>, fue la capital religiosa de la Confederación Muisca. Allí, a orillas del pequeño río Monquirá, se erigía el <strong>Templo del Sol</strong>, el santuario más importante y venerado de todo el altiplano. Era el epicentro del culto a <strong>Sué</strong>, la deidad solar, y un lugar de peregrinación masiva. Su construcción data de aproximadamente entre los años 500 a.C. y 800 d.C., y fue concebido como una réplica del cosmos, un punto de encuentro entre el mundo terrenal y el universo celestial.</p>
@@ -259,7 +259,7 @@ const lugaresDB = [
         nombre: "Cojines del Zaque (Tunja)",
         cultura: "Muisca",
         region: "andina",
-        imagen: "../img/lugares/Cojines-del-Zaque.webp",
+        imagen: "../img/Lugares/Cojines-del-Zaque.webp",
         descripcion_corta: "Piedras donde el Zaque recibía los primeros rayos del sol.",
         descripcion: `<h3>🏛️ El Santuario Solar en la Antigua Hunza</h3>
         <p>En la comuna 6 de la ciudad de Tunja, capital de Boyacá, sobre una pendiente del cerro de San Lázaro, se conserva un enigmático monumento de origen precolombino: los Cojines del Zaque o Santuario del Zaque de Hunza. Este sitio sagrado es uno de los vestigios más importantes del dominio del zaque, gobernante del territorio norte de la Confederación Muisca. Su nombre original en lengua muisca se ha perdido, pero su función como centro de adoración al sol ha sido preservada por la tradición oral y confirmada por la arqueoastronomía. Los españoles, al llegar en el siglo XVI, lo bautizaron despectivamente como "Cojines del Diablo", sin comprender la profundidad espiritual del lugar.</p>
@@ -280,7 +280,7 @@ const lugaresDB = [
         nombre: "Salto del Tequendama",
         cultura: "Muisca",
         region: "andina",
-        imagen: "../img/lugares/Alto-Tequendama.webp",
+        imagen: "../img/Lugares/Alto-Tequendama.webp",
         descripcion_corta: "Bochica abrió las rocas para drenar el diluvio de Chibchacum.",
         descripcion: `<h3>🏞️ La Cascada que Abrió el Cielo y la Tierra</h3>
         <p>El Salto del Tequendama es una imponente cascada de 132 metros de altura, ubicada en el municipio de Soacha, a 30 kilómetros al suroeste de Bogotá. Es la caída más alta del río Bogotá y uno de los paisajes naturales más emblemáticos de Colombia. El nombre "Tequendama" proviene del idioma muisca y significa "el que se precipitó hacia abajo". Para la cosmovisión muisca, este lugar era sagrado: era el punto donde los mundos se separaban y donde habitaban los espíritus de los antepasados.</p>
@@ -301,7 +301,7 @@ const lugaresDB = [
         nombre: "Cerro de Monserrate",
         cultura: "Muisca",
         region: "andina",
-        imagen: "../img/lugares/Cerro-Monserrate.webp",
+        imagen: "../img/Lugares/Cerro-Monserrate.webp",
         descripcion_corta: "Centro de observación astronómica y rituales muiscas.",
         descripcion: `<h3>🏔️ El Vigilante de Piedra de Bogotá</h3>
         <p>El Cerro de Monserrate es una montaña que se eleva a 3.152 metros sobre el nivel del mar en el oriente de Bogotá. Su silueta es un ícono inconfundible de la capital colombiana. Para la ciencia, es una formación de roca y tierra; para la historia, fue un observatorio astronómico de primer orden; para la fe, es un santuario de peregrinación masiva. Su nombre actual fue impuesto por los conquistadores españoles en honor al santuario de Montserrat en Cataluña, cuyo nombre significa "Monte en forma de dientes". Pero mucho antes de la llegada de los europeos, esta montaña ya era un lugar sagrado para los muiscas, quienes la llamaban <strong>Quijicha Caca</strong>, que significa "Pie de Abuela".</p>
@@ -322,7 +322,7 @@ const lugaresDB = [
         nombre: "Cerro de Guadalupe",
         cultura: "Muisca",
         region: "andina",
-        imagen: "../img/lugares/Cerro-Guadalupe.webp",
+        imagen: "../img/Lugares/Cerro-Guadalupe.webp",
         descripcion_corta: "Similar a Monserrate; sitio sagrado de peregrinación.",
         descripcion: `<h3>🏔️ El Otro Cerrito Tutelar de Bogotá</h3>
         <p>El cerro de Guadalupe, llamado por los muiscas <strong>Chiguachí</strong>, es uno de los más notables cerros orientales de Bogotá, alcanzando una altura de 3.360 metros sobre el nivel del mar. Junto a Monserrate, es conocido como uno de los dos cerros tutelares de la capital colombiana. Su nombre original en lengua muisca, "Chiguachí", significa "pie de abuela", mientras que a Monserrate se le llamaba "pie de abuelo", reflejando una dualidad complementaria que estructuraba el paisaje sagrado del altiplano. Su silueta ha sido, desde tiempos precolombinos, un punto de referencia espiritual y territorial para los habitantes de la sabana de Bogotá.</p>
@@ -343,7 +343,7 @@ const lugaresDB = [
         nombre: "Parque Arqueológico de San Agustín",
         cultura: "Agustinianos",
         region: "andina",
-        imagen: "../img/lugares/San-Agustin.webp",
+        imagen: "../img/Lugares/San-Agustin.webp",
         descripcion_corta: "Paisaje funerario con estatuas de deidades y ancestros.",
         descripcion: `<h3>🏛️ El Mayor Conjunto Megalítico de Sudamérica</h3>
         <p>El Parque Arqueológico de San Agustín, ubicado en el departamento del Huila, es considerado el más importante sitio arqueológico de Colombia y uno de los conjuntos megalíticos más grandes de Sudamérica. Declarado Patrimonio de la Humanidad por la UNESCO en 1995, este paisaje funerario y ceremonial se extiende por más de 2000 kilómetros cuadrados, abarcando los municipios de San Agustín, Isnos y Saladoblanco. Sus monumentos, que incluyen más de 500 estatuas monumentales, túmulos funerarios, sarcófagos monolíticos y fuentes ceremoniales labradas en la roca viva, fueron creados por una cultura que floreció entre el 500 a.C. y el 1350 d.C., siendo una de las tres culturas más antiguas de Sudamérica junto con Caral y Chavín en Perú.</p>
@@ -364,7 +364,7 @@ const lugaresDB = [
         nombre: "Parque Arqueológico de Tierradentro",
         cultura: "Paeces / Nasa",
         region: "andina",
-        imagen: "../img/lugares/Tierradentro.webp",
+        imagen: "../img/Lugares/Tierradentro.webp",
         descripcion_corta: "Tumbas subterráneas para el culto a los ancestros.",
         descripcion: `<h3>🏛️ La Ciudad de los Muertos en el Corazón del Cauca</h3>
         <p>El Parque Arqueológico Nacional de Tierradentro, ubicado en el departamento del Cauca, cerca de los municipios de Belalcázar (Páez) e Inzá, es una de las necrópolis más grandes del mundo. Declarado Patrimonio de la Humanidad por la UNESCO en 1995, este sitio alberga una de las mayores concentraciones de <strong>hipogeos</strong> —tumbas subterráneas excavadas en la roca volcánica— del continente americano. La cultura que los construyó, de la que se sabe muy poco debido a la ausencia de escritura, habitó la región entre los siglos VI y X d.C., y concibió la muerte no como un final, sino como una transición a otra forma de existencia.</p>
@@ -385,7 +385,7 @@ const lugaresDB = [
         nombre: "Volcán Machín",
         cultura: "Pijao",
         region: "andina",
-        imagen: "../img/lugares/Volcán-Machín.webp",
+        imagen: "../img/Lugares/Volcán-Machín.webp",
         descripcion_corta: "Morada del dios del fuego Nacuco; origen de aguas termales.",
         descripcion: `<h3>🌋 El Gigante Dormido del Tolima</h3>
         <p>El Volcán Machín es un estratovolcán activo ubicado a 17 kilómetros al oeste de la ciudad de Ibagué, en el departamento del Tolima. Con una altitud de 2.750 metros sobre el nivel del mar, su imponente presencia domina el paisaje del valle del río Toche y las estribaciones de la Cordillera Central. Geológicamente, es uno de los volcanes más jóvenes de Colombia, con una caldera de aproximadamente 3 kilómetros de diámetro que alberga un domo de lava. Su actividad se ha registrado a lo largo de la historia, con erupciones importantes en los años 1460, 1490, 1505 y la más reciente en 1557. Sin embargo, para los pueblos originarios de la región, especialmente para los Pijao, el Volcán Machín no es solo una formación geológica: es la morada del poderoso dios Nacuco.</p>
@@ -406,7 +406,7 @@ const lugaresDB = [
         nombre: "Sierra de los Órganos",
         cultura: "Pijao",
         region: "andina",
-        imagen: "../img/lugares/Sierra-organos.webp",
+        imagen: "../img/Lugares/Sierra-organos.webp",
         descripcion_corta: "Centro de formación de mohanes; ídolo de tres cabezas.",
         descripcion: `<h3>🏔️ Las Cumbres del Conocimiento Ancestral</h3>
         <p>La Sierra de los Órganos es una formación montañosa ubicada en el municipio de Coyaima, en el departamento del Tolima, en el corazón del territorio ancestral del pueblo Pijao. Sus imponentes picos rocosos, que se elevan como gigantescos órganos de piedra, dominan el paisaje de los valles del río Saldaña y el río Magdalena. Su nombre actual fue impuesto por los conquistadores españoles, impresionados por la verticalidad de sus riscos, que evocaban la forma de los tubos de un órgano eclesiástico. Sin embargo, para los Pijao, esta montaña era conocida con un nombre mucho más sagrado: era el "Templo de Lulumoy", un centro ceremonial y de formación chamánica de primer orden.</p>
@@ -427,7 +427,7 @@ const lugaresDB = [
         nombre: "Cerros de Abechucos",
         cultura: "Pijao (Guimbales)",
         region: "andina",
-        imagen: "../img/lugares/Cerros-abechucos.webp",
+        imagen: "../img/Lugares/Cerros-abechucos.webp",
         descripcion_corta: "Reposa Guimbales; sostiene una viga de oro del mundo.",
         descripcion: `<h3>⛰️ Los Centinelas del Sur del Tolima</h3>
         <p>Los Cerros de Abechucos son una cadena montañosa ubicada en el municipio de Ortega, en el departamento del Tolima, en el corazón del territorio ancestral del pueblo Pijao. Su nombre original y su significado profundo se han transmitido a través de la tradición oral, pero su presencia imponente ha marcado el paisaje y el imaginario de la región desde tiempos inmemoriales. Estos cerros son mucho más que un accidente geográfico: son, según la cosmovisión Pijao, uno de los pilares que sostienen el mundo.</p>
@@ -448,7 +448,7 @@ const lugaresDB = [
         nombre: "Nevado del Tolima",
         cultura: "Pijao",
         region: "andina",
-        imagen: "../img/lugares/Nevado-Tolima.webp",
+        imagen: "../img/Lugares/Nevado-Tolima.webp",
         descripcion_corta: "Morada de Ibanasca (Dulima), diosa de las tormentas.",
         descripcion: `<h3>🏔️ El Coloso Nevado que Domina el Tolima</h3>
         <p>El Nevado del Tolima es uno de los volcanes nevados más emblemáticos de la Cordillera Central de los Andes colombianos. Con una altitud de 5.215 metros sobre el nivel del mar, su imponente silueta blanca domina el paisaje del departamento del Tolima, siendo visible desde la ciudad de Ibagué y gran parte del valle del río Magdalena. Geológicamente, es un estratovolcán activo, con fumarolas y actividad sísmica registrada a lo largo de la historia. Sus laderas están cubiertas por páramos, lagunas de origen glaciar y bosques de niebla que albergan una biodiversidad única. Sin embargo, para el pueblo Pijao y los habitantes de la región, este nevado no es solo una formación geológica; es la morada eterna de Ibanasca, la diosa de las tormentas y protectora de su pueblo.</p>
@@ -469,7 +469,7 @@ const lugaresDB = [
         nombre: "Cerro León",
         cultura: "Emberá",
         region: "andina",
-        imagen: "../img/lugares/Cerro-León.webp",
+        imagen: "../img/Lugares/Cerro-León.webp",
         descripcion_corta: "Lugar donde Dabeiba ascendió al cielo como diosa de las tempestades.",
         descripcion: `<h3>🏔️ El Centinela de la Cordillera Occidental</h3>
         <p>El Cerro León es una elevación montañosa ubicada en el municipio de Murindó, en el departamento de Antioquia, en el corazón de la región del Urabá antioqueño. Esta montaña, que forma parte de la serranía del Abibe, se alza como un centinela en medio de la selva húmeda tropical, cerca del límite con el departamento del Chocó. Su nombre evoca su imponente silueta, que recuerda la forma de un felino en reposo. Para el pueblo Emberá Katío, esta montaña no es solo un accidente geográfico; es el lugar sagrado donde Dabeiba, la diosa civilizadora y señora de las tempestades, ascendió al cielo para reunirse con su padre, el dios creador Karagabí.</p>
@@ -490,7 +490,7 @@ const lugaresDB = [
         nombre: "Sierra Nevada del Cocuy",
         cultura: "U'wa",
         region: "andina",
-        imagen: "../img/lugares/Sierra-Nevada-del-Cocuy.webp",
+        imagen: "../img/Lugares/Sierra-Nevada-del-Cocuy.webp",
         descripcion_corta: "Territorio sagrado U'wa; lagunas donde viven espíritus y héroes.",
         descripcion: `<h3>🏔️ Zizuma: El Techo Blanco de los Andes Orientales</h3>
         <p>La Sierra Nevada del Cocuy, conocida por el pueblo U'wa como Zizuma ("Territorio Sagrado"), es un macizo montañoso ubicado en la Cordillera Oriental de los Andes colombianos, en el límite de los departamentos de Boyacá, Arauca y Casanare. Es la masa glaciar más grande de Colombia, con más de 25 picos cubiertos de nieve perpetua que superan los 5.000 metros de altura, entre los que destacan el Ritacuba Blanco (5.410 m) y el Pan de Azúcar (5.120 m). Sus páramos y lagunas de origen glaciar, como la Laguna Grande de la Sierra y la Laguna de la Plaza, son ecosistemas de una belleza sobrecogedora, que albergan una biodiversidad única. Sin embargo, para el pueblo U'wa, esta sierra es mucho más que un paraíso natural; es el centro del universo, el territorio sagrado que les fue encomendado por sus dioses desde el principio de los tiempos.</p>
@@ -511,7 +511,7 @@ const lugaresDB = [
         nombre: "Laguna de Juan Tama",
         cultura: "Nasa",
         region: "andina",
-        imagen: "../img/lugares/Laguna-Juan-Tama.webp",
+        imagen: "../img/Lugares/Laguna-Juan-Tama.webp",
         descripcion_corta: "Nació y regresó el cacique Juan Tama, héroe unificador del pueblo Nasa.",
         descripcion: `<h3>🏞️ Un Espejo de Agua en el Páramo de Moras</h3>
         <p>La laguna de Juan Tama se encuentra en el páramo de Moras, dentro del resguardo indígena de Mosoco, en el municipio de Belarcázar (antes conocido como Páez), en el departamento del Cauca. Es un cuerpo de agua de origen glaciar, rodeado de frailejones, bosque de niebla y una biodiversidad única de páramo. Para el pueblo Nasa (también conocido como Páez), esta laguna no es un simple accidente geográfico; es el lugar más sagrado de su territorio, el punto de origen y retorno de uno de sus más grandes líderes espirituales y políticos.</p>
@@ -532,7 +532,7 @@ const lugaresDB = [
         nombre: "Laguna del Oso (E'sxufy ĩkh)",
         cultura: "Nasa (Llibán)",
         region: "andina",
-        imagen: "../img/lugares/Laguna-Oso.webp",
+        imagen: "../img/Lugares/Laguna-Oso.webp",
         descripcion_corta: "Morada del héroe guerrero Llibán, protector de su pueblo.",
         descripcion: `<h3>🏞️ Un Espejo de Agua en las Alturas del Cauca</h3>
         <p>La laguna del Oso, cuyo nombre en lengua Nasa Yuwe es E'sxufy ĩkh, es un cuerpo de agua sagrado ubicado en las montañas del departamento del Cauca, en el corazón del territorio ancestral del pueblo Nasa. Al igual que otras lagunas de páramo en la región, es un ecosistema de alta montaña, rodeado de frailejones y vegetación de páramo, que alberga una biodiversidad única y provee agua a las comunidades de las faldas. Sin embargo, para el pueblo Nasa, esta laguna no es solo una fuente de agua; es la morada eterna de Llibán, un héroe guerrero de la resistencia precolombina.</p>
@@ -553,7 +553,7 @@ const lugaresDB = [
         nombre: "Convento San Francisco / Batallón Bolívar (Tunja)",
         cultura: "Tunja colonial",
         region: "andina",
-        imagen: "../img/lugares/Convento-San-Francisco.webp",
+        imagen: "../img/Lugares/Convento-San-Francisco.webp",
         descripcion_corta: "Lugar donde la estatua de un perro de piedra cobra vida por las noches, con ojos de fuego.",
         descripcion: `<h3>🏛️ Un Convento Histórico en el Corazón de Tunja</h3>
         <p>El Convento de San Francisco es uno de los edificios más emblemáticos de Tunja, la capital de Boyacá. Fundado en 1550 por los frailes franciscanos, es un ejemplo de la arquitectura colonial del siglo XVI. Su fachada de piedra, su claustro y su templo han sido testigos de más de cuatro siglos de historia. A su alrededor se encuentra el Parque de San Francisco, un espacio público que es punto de encuentro de los tunjanos. Sin embargo, este lugar no solo es famoso por su valor arquitectónico e histórico, sino también por ser el escenario de una de las leyendas más tenebrosas de la ciudad: la del Perro de San Francisco.</p>
@@ -577,7 +577,7 @@ const lugaresDB = [
         nombre: "Río Baudó (Baaur Do Mos)",
         cultura: "Wounaan",
         region: "pacifica",
-        imagen: "../img/lugares/Rio-Baudó.webp",
+        imagen: "../img/Lugares/Rio-Baudó.webp",
         descripcion_corta: "Playa sagrada donde el dios creador Maach Aai engendró a su hijo Êwandam, quien moldeó a los primeros Wounaan.",
         descripcion: `<h3>🌊 Un Río Mítico en el Corazón del Chocó</h3>
         <p>El río Baudó nace en la Serranía que lleva su mismo nombre y recorre aproximadamente 150 kilómetros a través de la selva húmeda del departamento del Chocó, desembocando en el Océano Pacífico. Es una de las principales arterias fluviales de la región, junto con el río Atrato y el río San Juan. Su cuenca es una de las más lluviosas del mundo, con precipitaciones anuales superiores a los 5.000 mm, lo que lo convierte en un río caudaloso, lleno de pantanos y una biodiversidad exuberante. Pero para el pueblo Wounaan, este río es mucho más que una fuente de agua; es el escenario de su creación, el lugar donde el dios supremo manifestó su poder por primera vez en la tierra. Para ellos, Baaur Do Mos significa "la playa blanca del Baudó", el punto exacto donde comenzó todo.</p>
@@ -598,7 +598,7 @@ const lugaresDB = [
         nombre: "Río Andágueda",
         cultura: "Emberá",
         region: "pacifica",
-        imagen: "../img/lugares/Rio-Andágueda.webp",
+        imagen: "../img/Lugares/Rio-Andágueda.webp",
         descripcion_corta: "Sitio donde el primer Jaibaná, Cobaima, ordenó el territorio y nombró lugares sagrados.",
         descripcion: `<h3>🏞️ El Río que Corre entre Dos Mundos</h3>
         <p>El río Andágueda es un afluente del río Atrato en el departamento del Chocó, que atraviesa territorios ancestrales del pueblo Emberá. Nace en las estribaciones de la Cordillera Occidental y desciende por la selva húmeda, formando caños, raudales y pozos profundos que son hábitat de una inmensa biodiversidad. Sus riberas han sido, desde tiempos inmemoriales, el hogar del pueblo Emberá Dobidá, que construyen sus casas a orillas del agua y cuyas vidas están intrínsecamente ligadas al río. Pero para los Emberá, el Andágueda no es solo una fuente de pesca o una vía de comunicación; es el escenario donde ocurrió uno de los eventos fundacionales de su orden social y espiritual: el paso del primer Jaibaná, Cobaima.</p>
@@ -619,7 +619,7 @@ const lugaresDB = [
         nombre: "Río Atrato",
         cultura: "Emberá",
         region: "pacifica",
-        imagen: "../img/lugares/Rio-Atrato.webp",
+        imagen: "../img/Lugares/Rio-Atrato.webp",
         descripcion_corta: "Escenario central del mito del héroe guerrero Séver, quien estableció el dominio Emberá sobre sus riberas.",
         descripcion: `<h3>🌊 La Gran Arteria del Chocó</h3>
         <p>El río Atrato es uno de los ríos más caudalosos y largos de Colombia. Nace en el Cerro de Caramanta, en la Cordillera Occidental, y recorre más de 700 kilómetros en dirección sur-norte hasta desembocar en el golfo de Urabá, en el mar Caribe. Es la principal vía de transporte y comunicación en el departamento del Chocó, y sus riberas están habitadas por comunidades afrocolombianas e indígenas, entre ellos el pueblo Emberá Dobidá. Para estos últimos, el Atrato no es solo una fuente de pesca o una ruta de navegación; es el escenario de las hazañas de Séver, el héroe guerrero que estableció el dominio de su pueblo sobre estas tierras, un mito que aún resuena en cada remanso y cada recodo del río.</p>
@@ -640,7 +640,7 @@ const lugaresDB = [
         nombre: "La Tola y El Charco (noche)",
         cultura: "Pacifico",
         region: "pacifica",
-        imagen: "../img/lugares/Tola-Charco.webp",
+        imagen: "../img/Lugares/Tola-Charco.webp",
         descripcion_corta: "Calles y caminos donde aparece un hombre elegante y sin cabeza que silba, causando la muerte por parálisis.",
         descripcion: `<h3>🌙 Dos Pueblos Hermanados por el Misterio</h3>
         <p>La Tola y El Charco son dos municipios ribereños del departamento de Nariño, ubicados en la costa pacífica norte, en una región de manglares, esteros y caños que se internan en la selva. Son pueblos de pescadores, agricultores y afrodescendientes, con una rica tradición oral que se ha transmitido de generación en generación. En sus calles empedradas y caminos de tierra, la vida transcurre al ritmo de las mareas. Pero cuando cae la noche, especialmente durante la Semana Santa o en noches sin luna, los habitantes saben que deben guardar silencio y apresurar el paso, porque por esos mismos caminos puede aparecer una de las figuras más aterradoras del folclor pacífico: el Descabezado.</p>
@@ -661,7 +661,7 @@ const lugaresDB = [
         nombre: "Litoral Pacífico",
         cultura: "Tumaco",
         region: "pacifica",
-        imagen: "../img/lugares/Sirena-Arco.webp",
+        imagen: "../img/Lugares/Sirena-Arco.webp",
         descripcion_corta: "Playas y rocas del océano donde aparece una sirena con cuerpo de pez y cola de ave. Su canto enloquece a los navegantes.",
         descripcion: `<h3>🌊 El Arco del Morro y las Noches de Luna Llena</h3>
         <p>El litoral de Tumaco, en el departamento de Nariño, es un paisaje de manglares, playas de arena negra y rompientes del Océano Pacífico. Frente a sus costas se alza el Arco del Morro, una formación rocosa natural que ha sido testigo de la historia de la región: fue escenario de rituales ancestrales, fortaleza contra piratas en la Colonia y guarida de patriotas durante la Independencia. En sus alrededores, especialmente en las noches de luna llena, los pescadores y navegantes aseguran haber visto a la criatura más fascinante y temida del Pacífico colombiano: la Sirena del Arco, la reina del mar.</p>
@@ -682,7 +682,7 @@ const lugaresDB = [
         nombre: "Isla Gorgona",
         cultura: "Yurumanguí",
         region: "pacifica",
-        imagen: "../img/lugares/Isla-Gorgona.webp",
+        imagen: "../img/Lugares/Isla-Gorgona.webp",
         descripcion_corta: "Centro ceremonial precolombino, considerado un 'laboratorio viviente' y un lugar de gran poder espiritual.",
         descripcion: `<h3>🏝️ La Isla Mítica del Pacífico Colombiano</h3>
         <p>La isla Gorgona es una pequeña isla oceánica de aproximadamente 13 km², ubicada a 28 km al oeste de la costa del Pacífico colombiano. Fue bautizada por los conquistadores españoles en 1527 en honor a la figura mitológica griega de la Gorgona Medusa, probablemente impresionados por la abundancia de serpientes en su territorio. Sin embargo, mucho antes de la llegada de los europeos, Gorgona ya era un lugar sagrado. Sus acantilados, sus playas de arena blanca y negra, sus cuevas y sus aguas cristalinas fueron el escenario de rituales y ceremonias de los pueblos precolombinos que habitaron la región, especialmente la cultura Yurumanguí.</p>
@@ -704,7 +704,7 @@ const lugaresDB = [
         nombre: "Quebrada / Laguna Eware (Yḭtaküchiü̃)",
         cultura: "Tikuna (Yoí, Ngṵtapa)",
         region: "amazonia",
-        imagen: "../img/lugares/Quebrada-Eware.webp",
+        imagen: "../img/Lugares/Quebrada-Eware.webp",
         descripcion_corta: "El lugar más sagrado para el pueblo Tikuna. Útero mítico donde Yoí 'pescó' a los primeros humanos.",
         descripcion: `<h3>🌊 Un Espejo de Agua en la Frontera de Tres Países</h3>
         <p>La quebrada Eware, también conocida en la lengua tikuna como Yḭtaküchiü̃, es un cuerpo de agua ubicado en el municipio de Puerto Nariño, en el departamento del Amazonas, cerca de las fronteras con Brasil y Perú. Es un pequeño afluente de aguas oscuras que nace en las estribaciones de la selva y desemboca en el río Amazonas. Su nombre original, Yḭtaküchiü̃, evoca la imagen de una laguna cristalina y aceitosa donde, según la tradición, los inmortales se bañaban para no envejecer. Sin embargo, para el pueblo Tikuna (Magüta), este cuerpo de agua no es un simple accidente geográfico; es el útero mítico de la humanidad, el lugar más sagrado de su territorio y el punto de origen de su identidad como pueblo.</p>
@@ -725,7 +725,7 @@ const lugaresDB = [
         nombre: "Resguardo Yaigojé Apaporis",
         cultura: "Uitoto (Yuruparí)",
         region: "amazonia",
-        imagen: "../img/lugares/Yaigoje-Apaporis.webp",
+        imagen: "../img/Lugares/Yaigoje-Apaporis.webp",
         descripcion_corta: "Alberga sitios sagrados como 'Yuisi', considerado el centro del mundo en la tradición del Yuruparí.",
         descripcion: `<h3>🏞️ Un Territorio de 1.056.023 Hectáreas en el Corazón de la Amazonía</h3>
         <p>El Resguardo Yaigojé Apaporis es un inmenso territorio indígena de 1.056.023 hectáreas ubicado en el departamento del Vaupés, en el sureste de Colombia, en la cuenca de los ríos Apaporis, Pirá Paraná y Caquetá. Es el hogar de los pueblos cabiyarí, tanimuka, letuama, yahuna, yuhup, barazano, yauna y macuna, entre otros. Su territorio se traslapa en un 100% con el Parque Nacional Natural Yaigojé Apaporis, una figura de doble protección que garantiza la conservación de su biodiversidad y de su patrimonio cultural. Para estos pueblos, el resguardo no es solo un espacio físico; es un ser vivo, un macroterritorio sagrado donde se originaron los conocimientos que sostienen el equilibrio del universo.</p>
@@ -746,7 +746,7 @@ const lugaresDB = [
         nombre: "Río Pirá Paraná",
         cultura: "Uitoto",
         region: "amazonia",
-        imagen: "../img/lugares/Rio-Pirá-Paraná.webp",
+        imagen: "../img/Lugares/Rio-Pirá-Paraná.webp",
         descripcion_corta: "Centro energético del macroterritorio Yuruparí, donde los chamanes jaguares realizan sus rituales.",
         descripcion: `<h3>🌊 El Corazón Energético de los Jaguares de Yuruparí</h3>
         <p>El río Pirá Paraná es un afluente del río Apaporis que fluye en el departamento del Vaupés, en el sureste de la Amazonía colombiana. Su nombre en lengua uitoto significa "Río de Aguas de Yuruparí" o "Hee Oko ~Ba". Para los pueblos indígenas que habitan su cuenca (Makuna, Tanimuka, Tuyuca, Cabiyari, Letuama y otros), el Pirá Paraná no es un simple río; es el corazón y el centro energético de un vasto espacio sagrado denominado el territorio de los jaguares de Yuruparí. Este macroterritorio, que abarca cerca de ocho millones de hectáreas, es considerado el lugar donde confluyen los sitios sagrados que nutren a todos los seres vivientes del mundo. Según la sabiduría ancestral, el río es el eje que ordena el cosmos y el punto de conexión entre el mundo de los vivos, el de los muertos y el de los espíritus.</p>
@@ -767,7 +767,7 @@ const lugaresDB = [
         nombre: "Leticia (selvas cercanas)",
         cultura: "Cotomachaco",
         region: "amazonia",
-        imagen: "../img/lugares/Cotomachaco.webp",
+        imagen: "../img/Lugares/Cotomachaco.webp",
         descripcion_corta: "Selvas profundas y lagunas donde habita una boa de dos cabezas que caza en árboles y tierra.",
         descripcion: `<h3>🌿 El Reino de la Selva más Impenetrable</h3>
         <p>En las selvas más profundas y poco transitadas que rodean la ciudad de Leticia, capital del departamento del Amazonas, se extiende un reino de árboles centenarios, lagunas oscuras y caños sin nombre. Es una región donde la luz del sol apenas logra penetrar el denso follaje, y donde el silencio solo es interrumpido por el canto de los monos aulladores y el aleteo de las guacamayas. Para los indígenas y ribereños de la zona, este no es un lugar cualquiera; es el territorio sagrado del Cotomachaco, una de las criaturas más temidas y respetadas del folclor amazónico colombiano. Su nombre, que en lengua huitoto significa "boa de dos cabezas", es susurrado con reverencia y temor, y sus apariciones son consideradas un presagio de peligro inminente.</p>
@@ -790,7 +790,7 @@ const lugaresDB = [
         nombre: "Cerro Autana",
         cultura: "Piapoco / Sikuani",
         region: "orinoquia",
-        imagen: "../img/lugares/Cerro-Autana.webp",
+        imagen: "../img/Lugares/Cerro-Autana.webp",
         descripcion_corta: "Tronco petrificado del árbol cósmico Kaliawiri, que contenía todos los alimentos del mundo.",
         descripcion: `<h3>🏔️ El Tepuy Fronterizo</h3>
         <p>El cerro Autana, conocido como Euwabey ("árbol de la vida") en lengua piaroa, es un imponente tepuy de 1.250 metros de altura situado en el estado Amazonas de Venezuela, cerca de la frontera con Colombia. Pertenece al escudo de Guayana y se caracteriza por sus paredes verticales y su cima casi plana. Para los pueblos indígenas de la cuenca del Orinoco, incluidos los Piapoco y Sikuani en el lado colombiano, esta montaña es mucho más que una formación geológica: es el tronco petrificado del árbol cósmico Kaliawiri, el origen de todos los alimentos del mundo.</p>
@@ -811,7 +811,7 @@ const lugaresDB = [
         nombre: "Raudales de Hípana (río Ayarí)",
         cultura: "Piapoco",
         region: "orinoquia",
-        imagen: "../img/lugares/Hipana.webp",
+        imagen: "../img/Lugares/Hipana.webp",
         descripcion_corta: "'Ombligo del mundo'; lugar desde donde Kalíiduwápini distribuyó el territorio entre los cinco linajes ancestrales.",
         descripcion: `<h3>🌊 El Corazón del Origen en el Río Ayarí</h3>
         <p>Los raudales de Hípana se encuentran en el río Ayarí (o Aiari), un afluente del río Isana en la cuenca del Vaupés, en la frontera entre Colombia y Brasil. Para el pueblo Piapoco (también conocido como Wenaiwika), este lugar es el punto cero de su universo, el "ombligo del mundo" donde comenzó todo. Según su tradición, el origen de los Piapoco se sitúa específicamente en la piedra yuluatá de estos raudales, un lugar sagrado al que se refieren como su hogar ancestral.</p>
@@ -829,7 +829,7 @@ const lugaresDB = [
         nombre: "Los Ríos de Tsawaliwali (Vichada, Meta, Guaviare, Orinoco)",
         cultura: "Sikuani",
         region: "orinoquia",
-        imagen: "../img/lugares/Tsawaliwali.webp",
+        imagen: "../img/Lugares/Tsawaliwali.webp",
         descripcion_corta: "Abiertos por el cuerpo de la culebra primordial Tsawaliwali, trazando el territorio ancestral Sikuani.",
         descripcion: `<h3>🐍 La Culebra Primordial que Abrió los Ríos</h3>
         <p>Los ríos Vichada, Meta, Guaviare y Orinoco son las arterias vitales de la Orinoquía colombiana. Para el pueblo Sikuani, estas masas de agua no son producto de procesos geológicos fortuitos: fueron abiertas por el cuerpo de la culebra primordial Tsawaliwali, una anaconda gigante emparentada con la jomowabi (Eunectes murinus), creada por Yamaxëne, el señor del trueno. En un tiempo en que no existían ríos, solo sabanas interminables, la culebra comenzó a desplazarse serpenteando la tierra, trazando con cada vuelta de su cuerpo los caños y los grandes cursos de agua.</p>
@@ -850,7 +850,7 @@ const lugaresDB = [
         nombre: "Diosonamuto (Camino de Dios)",
         cultura: "Sikuani",
         region: "orinoquia",
-        imagen: "../img/lugares/Diosonamuto.webp",
+        imagen: "../img/Lugares/Diosonamuto.webp",
         descripcion_corta: "Ruta terrestre sagrada que cruzaba los llanos, utilizada por los abuelos para llegar a sitios sagrados.",
         descripcion: `<h3>🏞️ La Senda Ancestral en la Inmensidad del Llano</h3>
         <p>El Diosonamuto, conocido como el "Camino de Dios", era una ruta terrestre sagrada que atravesaba los Llanos Orientales de Colombia, conectando los territorios de los actuales departamentos de Meta, Casanare y Vichada. Para el pueblo Sikuani (también conocidos como Guahibo), este sendero no era una simple trocha de comunicación; era una vía espiritual trazada por los ancestros y consagrada por los dioses, que servía como puente entre las comunidades y los lugares de poder.</p>
@@ -868,7 +868,7 @@ const lugaresDB = [
         nombre: "Hato de Santa Helena (río Cravo Norte)",
         cultura: "Meta",
         region: "orinoquia",
-        imagen: "../img/lugares/Hato-Santa-Helena.webp",
+        imagen: "../img/Lugares/Hato-Santa-Helena.webp",
         descripcion_corta: "Hato donde una joven fue asesinada por una bala perdida en su fiesta de quince años. Su fantasma viste de blanco y protege el lugar.",
         descripcion: `<h3>🏞️ El Hato Legendario a Orillas del Cravo Norte</h3>
         <p>El Hato de Santa Helena es una extensa propiedad ganadera ubicada a orillas del río Cravo Norte, en el departamento de Meta, en el corazón de los Llanos Orientales. Este hato, como muchos otros en la región, era un centro de vida y trabajo para los llaneros. Sin embargo, su nombre trascendió la geografía para convertirse en el epicentro de una de las leyendas más conmovedoras y perdurables del folclor llanero: la del Ánima de Santa Helena, una historia que combina la tragedia, la memoria y la protección espiritual del territorio.</p>
@@ -889,7 +889,7 @@ const lugaresDB = [
         nombre: "Río Guacavía (Marbachare)",
         cultura: "San Martín",
         region: "orinoquia",
-        imagen: "../img/lugares/Rio-Guacavía.webp",
+        imagen: "../img/Lugares/Rio-Guacavía.webp",
         descripcion_corta: "Río y sus orillas, donde el espíritu de una joven protege las aguas y castiga a quienes contaminan.",
         descripcion: `<h3>🏞️ El Río que Atraviesa la Historia de San Martín</h3>
         <p>El río Guacavía es un afluente del río Meta, que atraviesa el municipio de San Martín de los Llanos, en el departamento del Meta. Sus aguas han sido testigos de la historia de la región, desde los asentamientos indígenas previos a la conquista hasta la colonización y el desarrollo ganadero. Para los habitantes de la zona, este río no es solo una fuente de agua y pesca; es un espacio habitado por fuerzas espirituales, siendo la más conocida la de la Doncella de Marbachare.</p>
@@ -912,7 +912,7 @@ const lugaresDB = [
         nombre: "Cueva de Morgan (San Andrés)",
         cultura: "Pirata Henry Morgan",
         region: "insular",
-        imagen: "../img/lugares/Cueva-Morgan.webp",
+        imagen: "../img/Lugares/Cueva-Morgan.webp",
         descripcion_corta: "Escondite del tesoro del pirata Morgan, custodiado por almas en pena de sus esclavos decapitados.",
         descripcion: `<h3>🏝️ El Escondite Secreto en la Isla Caribe</h3>
         <p>La cueva de Morgan es una formación rocosa de origen coralino ubicada en el kilómetro 8 de la vía circunvalar de la isla de San Andrés, cerca del aeropuerto. Se trata de una cavidad de aproximadamente 30 metros de profundidad, con un sistema de galerías internas que se comunican con el mar a través de un túnel sumergido de unos 35 metros. Para los isleños raizales y los visitantes, este lugar no es solo una curiosidad geológica; es el escenario de una de las leyendas más poderosas y persistentes del Caribe colombiano, vinculada al famoso pirata inglés Henry Morgan (1635-1688).</p>
@@ -933,7 +933,7 @@ const lugaresDB = [
         nombre: "El Hoyo Soplador (San Andrés)",
         cultura: "Sirena del Hoyo Soplador",
         region: "insular",
-        imagen: "../img/lugares/Hoyo-Soplador.webp",
+        imagen: "../img/Lugares/Hoyo-Soplador.webp",
         descripcion_corta: "Géiser donde una sirena concede deseos a quienes los piden cuando el agua expulsa. También custodia un tesoro de Morgan.",
         descripcion: `<h3>🌊 El Géiser Natural en la Costa Sur</h3>
         <p>El Hoyo Soplador es una formación rocosa ubicada en la costa sur de la isla de San Andrés, a unos pocos kilómetros de la cueva de Morgan. Se trata de un orificio en la roca volcánica que, impulsado por la fuerza de las olas y el viento, expulsa potentes chorros de agua hacia el cielo, alcanzando alturas impresionantes. El fenómeno se produce cuando el mar entra por un túnel subterráneo y la presión del agua y el aire comprimido la lanzan hacia arriba. Para la ciencia, es un espectáculo geológico; para los isleños y visitantes, es un lugar de magia, un punto donde la naturaleza se manifiesta con poder y donde, según la tradición, habita una sirena de aguas profundas.</p>
@@ -954,7 +954,7 @@ const lugaresDB = [
         nombre: "The Hill (San Andrés)",
         cultura: "Duppy, Rolling Calf",
         region: "insular",
-        imagen: "../img/lugares/The-Hill.webp",
+        imagen: "../img/Lugares/The-Hill.webp",
         descripcion_corta: "Cerro principal de la isla; zona de avistamiento de espíritus (duppies) y de la bestia de fuego Rolling Calf.",
         descripcion: `<h3>🏔️ El Cerro que Domina la Isla</h3>
         <p>La Loma (The Hill) es el cerro principal de la isla de San Andrés, una elevación que se alza en el centro del territorio y que ofrece una vista panorámica de toda la isla. En su cima se encuentra la iglesia bautista bautizada como "La Loma" y un mirador desde donde se contempla el mar Caribe en todo su esplendor. Este cerro no solo es un punto geográfico y turístico; es, para los raizales, un lugar de encuentro con el mundo espiritual, un territorio donde los duppies (espíritus de los muertos) y otras entidades sobrenaturales se manifiestan con frecuencia.</p>
@@ -975,7 +975,7 @@ const lugaresDB = [
         nombre: "La Loma (San Andrés)",
         cultura: "Duppy",
         region: "insular",
-        imagen: "../img/lugares/La-Loma.webp",
+        imagen: "../img/Lugares/La-Loma.webp",
         descripcion_corta: "Barrio tradicional con casas de madera; conocido por apariciones de duppies (espíritus de muertos).",
         descripcion: `<h3>🏞️ El Corazón Tradicional de la Isla</h3>
         <p>La Loma, conocida como The Hill en inglés, es el barrio tradicional por excelencia de San Andrés. Es el asentamiento principal de la comunidad raizal nativa de la isla, cuyas viviendas de madera de estilo caribeño, con sus característicos techos de zinc y sus coloridas fachadas, escalan las laderas del cerro central. Desde su cima, la iglesia bautista y el mirador ofrecen una vista panorámica de todo el mar de los siete colores. Pero más allá de su valor turístico y arquitectónico, La Loma es un lugar de profundo significado espiritual y cultural, un espacio donde las fronteras entre el mundo de los vivos y el de los muertos se perciben más cerca.</p>
@@ -993,7 +993,7 @@ const lugaresDB = [
         nombre: "Rocas de la Sirena (Providencia)",
         cultura: "Rhaxche (Sirena)",
         region: "insular",
-        imagen: "../img/lugares/Rocas-Sirena.webp",
+        imagen: "../img/Lugares/Rocas-Sirena.webp",
         descripcion_corta: "Lugar donde se sienta la sirena Rhaxche, de cabellos dorados, cuyo canto hipnótico puede causar naufragios o guiar a pescadores.",
         descripcion: `<h3>🏞️ Las Formaciones Rocosas del Caribe</h3>
         <p>En las cristalinas aguas que rodean la isla de Providencia, cerca de la famosa piscina natural, se alzan un conjunto de formaciones rocosas conocidas como las Rocas de la Sirena. Estas rocas, esculpidas por la fuerza del mar Caribe a lo largo de milenios, emergen del agua como los dedos de una mano gigante, creando un paisaje de una belleza sobrecogedora. Para los isleños y visitantes, este no es un simple accidente geográfico; es el lugar de descanso de Rhaxche, la sirena de cabellos dorados, una de las leyendas más fascinantes y hermosas del archipiélago.</p>
@@ -1014,7 +1014,7 @@ const lugaresDB = [
         nombre: "Cementerio de Providencia",
         cultura: "Espíritus Guardianes (Hermanos Mayores)",
         region: "insular",
-        imagen: "../img/lugares/Cementerio-Providencia.webp",
+        imagen: "../img/Lugares/Cementerio-Providencia.webp",
         descripcion_corta: "Lugar de respeto y rituales para los 'Hermanos Mayores', espíritus que protegen la naturaleza de la isla.",
         descripcion: `<h3>⚰️ El Cementerio de Santa Isabel</h3>
         <p>El cementerio principal de la isla de Providencia, conocido como el Cementerio de Santa Isabel, se encuentra ubicado en un punto elevado cerca del pueblo, desde donde se contempla una vista del mar Caribe. Este camposanto es uno de los varios sitios de memoria en el archipiélago, espacios donde la comunidad raizal honra a sus ancestros y mantiene viva la conexión con su pasado. Sus tumbas, muchas de ellas con coloridas fachadas y flores frescas, son un reflejo de la cultura vibrante y respetuosa de los isleños. Pero más allá de su función funeraria, este cementerio es considerado un punto de encuentro con el mundo espiritual, un lugar donde habitan los "Hermanos Mayores", los espíritus guardianes de la naturaleza.</p>
